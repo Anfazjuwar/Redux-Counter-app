@@ -16,7 +16,7 @@ const Counter = () => {
     dispatch(reset());
   };
 
-  return (
+  return 
     <section>
       <p>{count}</p>
       <div>
@@ -35,7 +35,7 @@ const Counter = () => {
         <button onClick={resetAll}>Reset All</button>
       </div>
     </section>
-  );
+  
 };
 
 export default Counter;
